@@ -246,7 +246,6 @@ dependencies {
     testRuntimeOnly "com.tngtech.archunit:archunit-junit5-engine:${archunit_junit5_version}"
     testImplementation "com.h2database:h2"
     testImplementation "io.r2dbc:r2dbc-h2:${r2dbc_h2_version}"
-    implementation "io.r2dbc:r2dbc-h2:${r2dbc_h2_version}"
     //jhipster-needle-gradle-dependency - JHipster will add additional dependencies here
 }
 
