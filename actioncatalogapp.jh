@@ -10,8 +10,8 @@ application {
     authenticationType jwt
     databaseType sql
     prodDatabaseType postgresql
-    devDatabaseType h2Memory
-    enableHibernateCache false
+    devDatabaseType postgresql
+    //enableHibernateCache false
     cacheProvider no
     serviceDiscoveryType no
 
